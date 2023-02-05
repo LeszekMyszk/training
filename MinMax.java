@@ -58,7 +58,7 @@ public class MinMax {
                 .map(Integer::parseInt)
                 .collect(toList());*/
         int k = 4;
-        List<Integer> arr = Arrays.asList(10, 20, 30, 40, 60, 100, 200, 400);
+        List<Integer> arr = Arrays.asList(10, 20, 30, 40, 60, 100, 200, 400); // podane na sztywno zamiast z zewnatrz
         int result = Result.maxMin(k, arr);
 
         /*bufferedWriter.write(String.valueOf(result));
