@@ -26,7 +26,7 @@ class Result {
     public static int maxMin(int k, List<Integer> arr) {
         // Write your code here
         Collections.sort(arr);
-        int minimum = arr.get(arr.size()-1);
+        int minimum = arr.get(arr.size()-1);  //
         for (int i =0; i<=arr.size()-k; i++){
             int temp = arr.get(i+k-1) - arr.get(i);
             if (temp<minimum){
